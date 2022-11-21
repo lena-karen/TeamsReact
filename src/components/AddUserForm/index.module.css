@@ -1,0 +1,25 @@
+.user_form {
+    width: 80%;
+    margin: 50px auto;
+    border: 3px solid green;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.user_form input {
+    padding: 7px;
+    outline: none;
+}
+
+.user_form button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+}
